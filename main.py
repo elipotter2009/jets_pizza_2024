@@ -1,3 +1,17 @@
-Print ('hello ' ,what, 'would you like')
-print ('we ' ,have, tomatoes (+$1.50), onions (+$1.25), pineapple (+$3.50), mushrooms (+$3.75), avocado (+$0.40))
-print ('your ' ,you, chose mushrooms (+$3.75), along side onions(+$1.25) witch comes out to ($5)
+def pizza_price():
+
+
+
+  requested_topping = input("""
+  Write your customer promt here""")
+
+base_price = 15
+topping_price = 0
+# tomatoes (+1.50).
+# onions (+1.25).
+# pineapple (+3.50).
+# mushrooms (+3.75), and 
+# avocado (+0.40).
+
+for topping in requested_topping:
+  
